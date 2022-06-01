@@ -1,0 +1,30 @@
+body{
+    text-align: center;
+    font-family: 'Gugi', cursive;
+    background: linear-gradient(to right, lightblue, white);
+}
+div{
+    border: 2px dashed #870e2a;
+    margin: 10px;
+    padding: 5px 30px;
+    background: rgba(226, 235, 108, 0.42);
+    border-radius: 50px;
+    box-shadow: 7px 7px #a1a100;
+}
+#IconoUsuario{
+    width: 50px;
+    float: left;
+    border-radius: 50%;
+}
+div p{
+    text-align: center;
+    margin: 12px;
+}
+h1{
+    font-family: 'Square Peg', cursive;
+}
+
+div.Especial h3{
+    font-family: 'Gugi', sans-serif;
+    text-shadow: 2px 2px grey;
+}
