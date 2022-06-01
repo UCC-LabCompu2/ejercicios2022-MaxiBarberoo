@@ -27,6 +27,7 @@ h1{
 .color-div{
     background: #feab5a;
     max-width: 500px;
+    display: none;
 }
 
 .operacionesMat input{

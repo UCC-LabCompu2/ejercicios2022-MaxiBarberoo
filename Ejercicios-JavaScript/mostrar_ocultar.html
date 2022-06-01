@@ -5,6 +5,7 @@
     <title>Mostrar/Ocultar Div</title>
     <link href="https://fonts.googleapis.com/css?family=Inknut+Antiqua" rel="stylesheet">
     <link href="miEstilo.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript" src="misFunciones.js"></script>
 </head>
 <body>
 
@@ -13,16 +14,16 @@
     <!--Es importante que los 2 radio button tengan el mismo name, porque eso les hace pertener a un mismo grupo-->
     <!--Si un radio button se selecciona, el otro se deselecciona-->
     <p>
-        <input id="mostrarDiv" type="radio" name="rad_mostrar-ocultar" value="val_mostrar">
+        <input id="mostrarDiv" type="radio" name="rad_mostrar-ocultar" value="val_mostrar" onchange="mostrar_ocultar(this.value)">
         <label for="mostrarDiv"> Mostrar Div </label>
     </p>
     <p>
-        <input id="ocultarDiv" type="radio" name="rad_mostrar-ocultar" value="val_ocultar">
+        <input id="ocultarDiv" type="radio" name="rad_mostrar-ocultar" value="val_ocultar" onchange="mostrar_ocultar(this.value)">
         <label for="ocultarDiv"> Ocultar Div </label>
     </p>
 </form>
 
-<div name="unDiv" class="color-div">
+<div id="unDiv" class="color-div">
     <p>Este DIV contiene información que en ciertas ocasiones se desea ocultar.</p>
 </div>
 
