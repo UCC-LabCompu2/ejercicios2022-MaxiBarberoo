@@ -11,18 +11,18 @@
 
 <div class="centrado div-conver">
     <h1>Conversor de Unidades</h1>
-    <form>
+    <form name="lasUnidades">
         <p>
-            <label for="metro"> Metro</label> = <input id="metro" type="text" name="unid_metro">
+            <label for="metro"> Metro</label> = <input id="metro" type="text" name="unid_metro" onchange="conversionUnidades(this.id, this.value)">
         </p>
         <p>
-            <label for="pulgada"> Pulgada</label> = <input id="pulgada" type="text" name="unid_pulgada">
+            <label for="pulgada"> Pulgada</label> = <input id="pulgada" type="text" name="unid_pulgada" onchange="conversionUnidades(this.id, this.value)">
         </p>
         <p>
-            <label for="pie"> Pie </label> = <input id="pie" type="text" name="unid_pie">
+            <label for="pie"> Pie </label> = <input id="pie" type="text" name="unid_pie" onchange="conversionUnidades(this.id, this.value)">
         </p>
         <p>
-            <label for="yarda"> Yarda</label> = <input id="yarda" type="text" name="unid_yarda">
+            <label for="yarda"> Yarda</label> = <input id="yarda" type="text" name="unid_yarda" onchange="conversionUnidades(this.id, this.value)">
         </p>
     </form>
 </div>
